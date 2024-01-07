@@ -1,0 +1,318 @@
+/* Définition des polices personnalisées */
+
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:#E0E0E0;
+   width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+
+}
+.logo img {
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+    color:white;
+    margin-left: 20px;
+   
+   
+}
+
+
+    
+
+/* Navigation */
+nav{
+    padding-left: 300px;
+    margin-top: -180px;
+   background-color: ;
+   width: 100%;
+   height: 100px;
+   justify-content: center;
+ 
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+justify-content: center;
+width: 100%;
+height: 100px;
+align-items: center;
+}
+
+nav li
+{
+    margin-right: 100px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #222020;
+    text-decoration: none;
+    border-color: black;
+    text-transform: uppercase;
+   
+}
+.accueil a {
+    color: #e7a0a0fd;
+}
+nav a:hover
+{
+    color: #c5babb;
+    border-bottom: 3px solid #3f3d3d;
+}
+/*paragraphe 1*/
+.contenu {
+    color: white;
+    text-align: center;
+    font-size: large;
+    
+    
+}
+.contenu p{
+    color: rgb(15, 15, 15);
+    background-color: #222020;
+    font-family: 'Dayrom';
+}
+/*premier parti*/
+img{
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+
+}
+
+
+/*home*/
+.part1{
+height: 600px;
+display: flex;
+overflow: hidden;
+}
+
+
+.partie1left{
+position: relative;
+width: 50%;
+height: 100%;
+box-shadow: 90px 0 100px 100px #E0E0E0;
+
+}
+.azul{
+    color: rgba(163, 29, 173, 0.74);
+    font-size: 80px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    margin-left: 8vw;
+font-family: 'Times New Roman', Times, serif;
+}
+.azul:hover{
+  
+    border-bottom: 2px solid #3f3d3d;
+    text-shadow: 0 0 5px #fff,
+    0 0 1px #fff,
+    0 0 1px #e6d6d6c0,
+    0 0 1px #e6d6d6c0,
+    0 0 10px #e6d6d6c0
+    ;
+}
+.part1 p {
+color: #222020;
+font-size: 30px;
+width: 600px;
+margin-left: 8vw;
+line-height: 1.1;
+font-family: 'BallparkWeiner';
+font-size:30px;
+}
+.button1{
+    font-size: 18px;
+    text-align: center;
+    color: #e0b7b7;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 40px;
+    border :5px solid #e0b7b7 ;
+    cursor: pointer;
+    margin-left: 300px;
+    border-radius: 7px;
+}
+.button1:hover{
+    color: rgb(160, 137, 118);
+    border: 3px solid #e68f38;
+    transition: all 0.2s ;
+   
+}
+.partie2{
+    background-image: url(Camera\ Wallpaper.jpg);
+    width: 60%;
+    height:100% ;
+    background-position:80% 50%;
+}
+
+/*services*/
+.titre1{
+    color: #e0b7b7;
+    text-align: center;
+    font-size: 60px;
+    padding: 90px 20px 10px;
+   font-family: initial;
+    text-transform: uppercase;
+    
+}
+.titre1:hover{
+
+    
+    text-shadow: 0 0 5px #fff,
+    0 0 1px #fff,
+    0 0 1px #e6d6d6c0,
+    0 0 1px #e6d6d6c0,
+    0 0 10px #e6d6d6c0
+    ;
+}
+.info-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #e6d6d6c0;
+    
+    
+}
+.carte{
+    margin-bottom: 10px;
+    padding-top: 20px;
+    margin-left: 60px;
+    box-shadow: 0 0 5px rgba(243, 241, 241, 0.877);
+    border-radius: 60px;
+    height: 700px;
+}
+.catre-photo img {
+    width:100% ;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+
+.carte h2{
+    color: rgba(163, 29, 173, 0.74);
+    text-align: center;
+    font-size: 26px;
+    padding: 20px 5px;
+    font-family: 'BallparkWeiner';
+    
+    
+}
+
+ .carte h2:hover{
+  
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 10px #ff852ebe,
+    0 0 10px #ff852e86,
+    0 0 10px #ff852eb4
+    ;
+}
+/*footer*/
+
+.fin{
+    color: #e0b7b7;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px 20px 10px;
+    font-family: initial;
+    text-transform: uppercase;
+    
+}
+.fin:hover{
+
+    
+    text-shadow: 0 0 5px #fff,
+    0 0 1px #fff,
+    0 0 1px #e6d6d6c0,
+    0 0 1px #e6d6d6c0,
+    0 0 10px #e6d6d6c0
+    ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+border: 4px;
+border-color: #f1f1f1;
+
+
+}
+.footer-contenue {
+    
+    margin-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+   
+}
+
+.footer-contenue h3 {
+   color: #b47474c0;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*contact formulair */
+
+section{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+margin-left: 50px;
+border: 5px;
+background-color: #e0b7b7;
+border-radius: 10px 10px 10px 10px;
+color: white;
+box-shadow: 5px 5px 20px 1px 10px rgb(230, 224, 224);
+
+}
+.frm h1{
+margin-left: 40px;
+font-size: 20px;
+color: #222020;
+
+}
+
+

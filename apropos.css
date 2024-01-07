@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Lora:ital,wght@1,400;1,500&family=Roboto:wght@300&family=Rubik+Lines&display=swap');
+
+
+.apropos a {
+    color: #e7a0a0fd;
+}
+/*home*/
+.part1{
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    }
+    
+    
+    .partie1left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    box-shadow: 90px 0 100px 100px #E0E0E0;
+    
+    }
+    .azul{
+        color: #FFAB91;
+        font-size: 40px;
+        padding-top: 4px;
+        padding-bottom: 10px;
+        margin-left: 8vw;
+    
+    }
+    .azul:hover{
+      
+        border-bottom: 2px solid #3f3d3d;
+        text-shadow: 0 0 5px #fff,
+        0 0 1px #fff,
+        0 0 1px #e6d6d6c0,
+        0 0 1px #e6d6d6c0,
+        0 0 10px #e6d6d6c0
+        ;
+    }
+    .part1 p {
+    color: #222020;
+    font-size: 20px;
+    width: 600px;
+    margin-left: 8vw;
+    line-height: 2;
+    font-family: 'lora';
+    text-indent: 10px;
+    text-indent: 15px;
+    
+    }
+    
+.button1{
+    font-size: 18px;
+    text-align: center;
+    color: #e0b7b7;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 40px;
+    border :5px solid #e0b7b7 ;
+    cursor: pointer;
+    margin-left: 300px;
+    border-radius: 7px;
+}
+.button1:hover{
+    color: rgb(160, 137, 118);
+    border: 3px solid #e68f38;
+    transition: all 0.2s ;
+   
+}
+.partie2{
+    background-image: url(MSiauw_Photography.jpg);
+    width: 60%;
+    height:100% ;
+    background-position:80% 50%;
+}
+/*...........................................................................*/
+/* Définition des polices personnalisées */
+
+
+
+body{
+    background-color:#E0E0E0;
+   width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+
+}
+.logo img {
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+    color:white;
+    margin-left: 20px;
+   
+   
+}
+
+
+    
+
+/* Navigation */
+nav{
+    padding-left: 300px;
+    margin-top: -180px;
+   background-color: ;
+   width: 100%;
+   height: 100px;
+   justify-content: center;
+
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+justify-content: center;
+width: 100%;
+height: 100px;
+align-items: center;
+}
+
+nav li
+{
+    margin-right: 100px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #222020;
+    text-decoration: none;
+    border-color: black;
+    text-transform: uppercase;
+   
+}
+
+nav a:hover
+{
+    color: #c5babb;
+    border-bottom: 3px solid #3f3d3d;
+}
+/*footer*/
+
+.fin{
+    color: #e0b7b7;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px 20px 10px;
+    font-family: initial;
+    text-transform: uppercase;
+    
+}
+.fin:hover{
+
+    
+    text-shadow: 0 0 5px #fff,
+    0 0 1px #fff,
+    0 0 1px #e6d6d6c0,
+    0 0 1px #e6d6d6c0,
+    0 0 10px #e6d6d6c0
+    ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+border: 4px;
+border-color: #f1f1f1;
+margin-bottom: 100px;
+padding-top: 100px;
+
+}
+.footer-contenue {
+    
+    margin-bottom: 100px;
+    padding-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+   
+}
+
+.footer-contenue h3 {
+   color: #b47474c0;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

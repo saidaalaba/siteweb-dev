@@ -1,0 +1,237 @@
+/* Définition des polices personnalisées */
+
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:#E0E0E0;
+   width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+
+}
+.logo img {
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+    color:white;
+    margin-left: 20px;
+   
+   
+}
+
+
+    
+
+/* Navigation */
+nav{
+    padding-left: 300px;
+    margin-top: -180px;
+   background-color: ;
+   width: 100%;
+   height: 100px;
+   justify-content: center;
+ 
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+justify-content: center;
+width: 100%;
+height: 100px;
+align-items: center;
+}
+
+nav li
+{
+    margin-right: 100px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #222020;
+    text-decoration: none;
+    border-color: black;
+    text-transform: uppercase;
+   
+}
+.contact a {
+    color: #e7a0a0fd;
+}
+nav a:hover
+{
+    color: #c5babb;
+    border-bottom: 3px solid #3f3d3d;
+}
+/*footer*/
+
+.fin{
+    color: #e0b7b7;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px 20px 10px;
+    font-family: initial;
+    text-transform: uppercase;
+    
+}
+.fin:hover{
+
+    
+    text-shadow: 0 0 5px #fff,
+    0 0 1px #fff,
+    0 0 1px #e6d6d6c0,
+    0 0 1px #e6d6d6c0,
+    0 0 10px #e6d6d6c0
+    ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+border: 4px;
+border-color: #f1f1f1;
+
+
+}
+.footer-contenue {
+    
+    margin-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+   
+}
+
+.footer-contenue h3 {
+   color: #b47474c0;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*contact formulair section{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+margin-left: 50px;
+border: 5px;
+background-color: #e0b7b7;
+border-radius: 10px 10px 10px 10px;
+color: white;
+box-shadow: 5px 5px 20px 1px 10px rgb(230, 224, 224);
+
+}
+.frm h1{
+margin-left: 40px;
+font-size: 20px;
+color: #222020;
+
+}
+*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: color #f5f5f5; 
+    font-family: 'Roboto',sans-serif;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+form{
+    margin-top: 20px;
+    background-color:#fff;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    
+    }
+    form h1{
+        color: #eb7371;
+        text-align: center;
+    }
+    form .sociel-media{
+        margin-top:-10px ;
+        display: flex;
+        justify-content: center;
+        
+    }
+    form .sociel-media p{
+        padding: 5px;
+        margin-right: 20px;
+        
+    }
+    form p.utilise-mail{
+       text-align: center;
+    
+    }
+    .inputs{
+        display: flex;
+       flex-direction: column;
+       
+    
+    }
+    .inputs input{
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: none;
+        background-color: #f2f2f2;
+        outline: none;
+    }
+    .inscription{
+        font-size: 15px;
+        color: #878787;
+    }
+    button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff; 
+    background-color: #eb7371;
+    cursor:pointer ;
+   
+    
+    }
+    .btn{
+        padding: 15px 25px;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
+       
+        
+        cursor:pointer ;
+
+    }
+
